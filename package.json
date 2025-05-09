@@ -1,0 +1,13 @@
+{
+  "name": "playwright-api-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^22.15.17",
+    "dotenv": "^16.3.1"
+  }
+}
